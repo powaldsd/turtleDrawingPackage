@@ -28,4 +28,4 @@ now first u need to import module by typing:
 	#2.
 	draw.Draw(100, 90, 4)
 
-for advanced users u just need to view drawings.py thats all (:
+for advanced users u just need to view drawings.py thats all (: (or wach the video that will come soon to how to use this and how it works)
