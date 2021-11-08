@@ -20,12 +20,11 @@ now first u need to import module by typing:
 
 	#1.
 
-	drawings.draw.Draw(100, 90, 4) 
+	drawings.draw.draw(100, 90, 4, 8) 
 
-	#To Understand how this works u will need to open file drawing.py wiht notepad or your text editor
+	#To Understand how this works u will need to open file drawing.py with notepad or your text editor
 	#I mean u are going to need drawings.py for this to work but make sure to view modul first
 	
-	#2.
-	draw.Draw(100, 90, 4)
+	#If everything went succssesfull u should have a square
 
 for advanced users u just need to view drawings.py thats all (: (or wach the video that will come soon to how to use this and how it works)
