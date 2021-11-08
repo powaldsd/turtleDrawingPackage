@@ -14,8 +14,8 @@ now first u need to import module by typing:
 
 	#first u need to accsess class draw by typing
 
-drawings.draw #or this will work draw = drawings.draw so u dont have to all drawings all the time
-drawings.draw.draw(100, 90, 4, 8) 
+	drawings.draw #or this will work draw = drawings.draw so u dont have to all drawings all the time
+	drawings.draw.draw(100, 90, 4, 8) 
 
 	#To Understand how this works u will need to open file drawing.py with notepad or your text editor
 	#I mean u are going to need drawings.py for this to work but make sure to view modul first
