@@ -10,7 +10,7 @@ myTurtle = turtle.Turtle()
 
 class draw:
     
-    def angleDrawAdvanced(x, angle0, angle1, angle2, angle3, doDrawForward1, angle4, doDrawForward2):
+    def angleDrawAdvanced(speed, angle0, angle1, angle2, angle3, doDrawForward1, angle4, doDrawForward2):
 
 
         angle = [angle0, angle1, angle2]
@@ -40,16 +40,16 @@ class draw:
 
 
         myTurtle.right(angle[0])
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         myTurtle.right(angle[1])
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         myTurtle.right(angle[2])
 
 
         #We Draw Those Indexes If CanDraw is True
         if(canDraw4):
             myTurtle.right(angle[3])
-            myTurtle.forward(x)
+            myTurtle.forward(speed)
         if(canDraw5):
             myTurtle.right(angle[4])
             myTurtle.forward(100)
@@ -65,7 +65,7 @@ class draw:
 
     def draw(x, angle, times, max):
         while(times != max):
-            myTurtle.forward(x)
+            myTurtle.forward(speed)
             myTurtle.right(angle)
             times += 1
     def angle(x, r0, r1, r2, r3):
@@ -76,38 +76,38 @@ class draw:
             doRotation4 = True
 
         myTurtle.right(r0)
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         myTurtle.right(r1)
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         myTurtle.right(r2)
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
 
 
         if(doRotation4):
             myTurtle.right(r3)
-            myTurtle.forward(x)         
+            myTurtle.forward(speed)         
 class shapes:
-    def square(x, loopDraw):
+    def square(speed, loopDraw):
         startLoop = False     
         if(loopDraw != None):
             startLoop = True
         if(loopDraw != False):
             startLoop = True
         
-        myTurtle.forward(x) 
+        myTurtle.forward(speed) 
         myTurtle.right(90)
-        myTurtle.forward(x)    
+        myTurtle.forward(speed)    
         myTurtle.right(90)    
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         myTurtle.right(90)
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         if(startLoop):
             myTurtle.forward(x)
-    def normalSquare(x):
-        myTurtle.forward(x)
+    def normalSquare(speed):
+        myTurtle.forward(speed)
         myTurtle.right(90)
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         myTurtle.right(90)
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
         myTurtle.right(90)
-        myTurtle.forward(x)
+        myTurtle.forward(speed)
